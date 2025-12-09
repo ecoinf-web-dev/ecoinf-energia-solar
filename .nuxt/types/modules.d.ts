@@ -11,7 +11,7 @@ declare module '@nuxt/schema' {
     ["@nuxt/ui"]?: ModuleDependencyMeta<typeof import("@nuxt/ui").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
     ["@nuxt/devtools"]?: ModuleDependencyMeta<typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
     ["@nuxt/telemetry"]?: ModuleDependencyMeta<typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
-    ["C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module"]?: ModuleDependencyMeta<typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
+    ["C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module"]?: ModuleDependencyMeta<typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
     ["@nuxtjs/robots"]?: ModuleDependencyMeta<typeof import("@nuxtjs/robots").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
     ["@nuxtjs/sitemap"]?: ModuleDependencyMeta<typeof import("@nuxtjs/sitemap").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
     ["nuxt-link-checker"]?: ModuleDependencyMeta<typeof import("nuxt-link-checker").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
@@ -61,9 +61,9 @@ declare module '@nuxt/schema' {
      */
     ["telemetry"]: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O, unknown, boolean> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module`
+     * Configuration for `C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module`
      */
-    ["site"]: typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O, unknown, boolean> ? O : Record<string, any>
+    ["site"]: typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O, unknown, boolean> ? O : Record<string, any>
     /**
      * Configuration for `@nuxtjs/robots`
      */
@@ -131,9 +131,9 @@ declare module '@nuxt/schema' {
      */
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O, unknown, boolean> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module`
+     * Configuration for `C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module`
      */
-    ["site"]?: typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O, unknown, boolean> ? Partial<O> : Record<string, any>
+    ["site"]?: typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O, unknown, boolean> ? Partial<O> : Record<string, any>
     /**
      * Configuration for `@nuxtjs/robots`
      */
@@ -158,7 +158,7 @@ declare module '@nuxt/schema' {
      * Configuration for `nuxt-seo-utils`
      */
     ["seo"]?: typeof import("nuxt-seo-utils").default extends NuxtModule<infer O, unknown, boolean> ? Partial<O> : Record<string, any>
-    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/eslint", Exclude<NuxtConfig["eslint"], boolean>] | ["@nuxt/scripts", Exclude<NuxtConfig["scripts"], boolean>] | ["@nuxtjs/seo", Exclude<NuxtConfig["nuxtseo"], boolean>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxt/image", Exclude<NuxtConfig["image"], boolean>] | ["@nuxt/fonts", Exclude<NuxtConfig["fonts"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>] | ["C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["@nuxtjs/robots", Exclude<NuxtConfig["robots"], boolean>] | ["@nuxtjs/sitemap", Exclude<NuxtConfig["sitemap"], boolean>] | ["nuxt-link-checker", Exclude<NuxtConfig["linkChecker"], boolean>] | ["nuxt-og-image", Exclude<NuxtConfig["ogImage"], boolean>] | ["nuxt-schema-org", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["nuxt-seo-utils", Exclude<NuxtConfig["seo"], boolean>])[],
+    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/eslint", Exclude<NuxtConfig["eslint"], boolean>] | ["@nuxt/scripts", Exclude<NuxtConfig["scripts"], boolean>] | ["@nuxtjs/seo", Exclude<NuxtConfig["nuxtseo"], boolean>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxt/image", Exclude<NuxtConfig["image"], boolean>] | ["@nuxt/fonts", Exclude<NuxtConfig["fonts"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>] | ["C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["@nuxtjs/robots", Exclude<NuxtConfig["robots"], boolean>] | ["@nuxtjs/sitemap", Exclude<NuxtConfig["sitemap"], boolean>] | ["nuxt-link-checker", Exclude<NuxtConfig["linkChecker"], boolean>] | ["nuxt-og-image", Exclude<NuxtConfig["ogImage"], boolean>] | ["nuxt-schema-org", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["nuxt-seo-utils", Exclude<NuxtConfig["seo"], boolean>])[],
   }
 }
 declare module 'nuxt/schema' {
@@ -173,7 +173,7 @@ declare module 'nuxt/schema' {
     ["@nuxt/ui"]?: ModuleDependencyMeta<typeof import("@nuxt/ui").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
     ["@nuxt/devtools"]?: ModuleDependencyMeta<typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
     ["@nuxt/telemetry"]?: ModuleDependencyMeta<typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
-    ["C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module"]?: ModuleDependencyMeta<typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
+    ["C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module"]?: ModuleDependencyMeta<typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
     ["@nuxtjs/robots"]?: ModuleDependencyMeta<typeof import("@nuxtjs/robots").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
     ["@nuxtjs/sitemap"]?: ModuleDependencyMeta<typeof import("@nuxtjs/sitemap").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
     ["nuxt-link-checker"]?: ModuleDependencyMeta<typeof import("nuxt-link-checker").default extends NuxtModule<infer O> ? O : Record<string, unknown>>
@@ -233,10 +233,10 @@ declare module 'nuxt/schema' {
      */
     ["telemetry"]: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O, unknown, boolean> ? O : Record<string, any>
     /**
-     * Configuration for `C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module
+     * Configuration for `C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module`
+     * @see https://www.npmjs.com/package/C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module
      */
-    ["site"]: typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O, unknown, boolean> ? O : Record<string, any>
+    ["site"]: typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O, unknown, boolean> ? O : Record<string, any>
     /**
      * Configuration for `@nuxtjs/robots`
      * @see https://www.npmjs.com/package/@nuxtjs/robots
@@ -320,10 +320,10 @@ declare module 'nuxt/schema' {
      */
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O, unknown, boolean> ? Partial<O> : Record<string, any>
     /**
-     * Configuration for `C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module`
-     * @see https://www.npmjs.com/package/C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module
+     * Configuration for `C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module`
+     * @see https://www.npmjs.com/package/C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module
      */
-    ["site"]?: typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O, unknown, boolean> ? Partial<O> : Record<string, any>
+    ["site"]?: typeof import("C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O, unknown, boolean> ? Partial<O> : Record<string, any>
     /**
      * Configuration for `@nuxtjs/robots`
      * @see https://www.npmjs.com/package/@nuxtjs/robots
@@ -354,6 +354,6 @@ declare module 'nuxt/schema' {
      * @see https://www.npmjs.com/package/nuxt-seo-utils
      */
     ["seo"]?: typeof import("nuxt-seo-utils").default extends NuxtModule<infer O, unknown, boolean> ? Partial<O> : Record<string, any>
-    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/eslint", Exclude<NuxtConfig["eslint"], boolean>] | ["@nuxt/scripts", Exclude<NuxtConfig["scripts"], boolean>] | ["@nuxtjs/seo", Exclude<NuxtConfig["nuxtseo"], boolean>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxt/image", Exclude<NuxtConfig["image"], boolean>] | ["@nuxt/fonts", Exclude<NuxtConfig["fonts"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>] | ["C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["@nuxtjs/robots", Exclude<NuxtConfig["robots"], boolean>] | ["@nuxtjs/sitemap", Exclude<NuxtConfig["sitemap"], boolean>] | ["nuxt-link-checker", Exclude<NuxtConfig["linkChecker"], boolean>] | ["nuxt-og-image", Exclude<NuxtConfig["ogImage"], boolean>] | ["nuxt-schema-org", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["nuxt-seo-utils", Exclude<NuxtConfig["seo"], boolean>])[],
+    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["@nuxt/eslint", Exclude<NuxtConfig["eslint"], boolean>] | ["@nuxt/scripts", Exclude<NuxtConfig["scripts"], boolean>] | ["@nuxtjs/seo", Exclude<NuxtConfig["nuxtseo"], boolean>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxt/image", Exclude<NuxtConfig["image"], boolean>] | ["@nuxt/fonts", Exclude<NuxtConfig["fonts"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>] | ["C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["@nuxtjs/robots", Exclude<NuxtConfig["robots"], boolean>] | ["@nuxtjs/sitemap", Exclude<NuxtConfig["sitemap"], boolean>] | ["nuxt-link-checker", Exclude<NuxtConfig["linkChecker"], boolean>] | ["nuxt-og-image", Exclude<NuxtConfig["ogImage"], boolean>] | ["nuxt-schema-org", Exclude<NuxtConfig["schemaOrg"], boolean>] | ["nuxt-seo-utils", Exclude<NuxtConfig["seo"], boolean>])[],
   }
 }

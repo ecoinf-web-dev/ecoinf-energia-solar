@@ -40,7 +40,7 @@
 					<div class="mb-6">
 						<div class="flex items-center space-x-3">
 							<NuxtImg
-								src="/img/logo-sol.webp"
+								src="/img/logo-final.png"
 								alt="ECOINF Energia Solar Fotovoltaica"
 								class="w-auto h-14"
 								loading="lazy"

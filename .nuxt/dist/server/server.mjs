@@ -1,1 +1,1 @@
-export { default } from "file:///C:/Users/gjoli/OneDrive/%C3%81rea%20de%20Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///C:/Users/gjoli/OneDrive/%C3%81rea%20de%20Trabalho/ecoinf-energia-solar/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

@@ -11,7 +11,7 @@
 /// <reference path="types/app.config.d.ts" />
 /// <reference types="nuxt" />
 /// <reference types="../node_modules/@nuxt/vite-builder/dist/index.mjs" />
-/// <reference types="C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/@nuxt/nitro-server/dist/index.mjs" />
+/// <reference types="C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/@nuxt/nitro-server/dist/index.mjs" />
 /// <reference path="eslint-typegen.d.ts" />
 /// <reference path="image/providers.d.ts" />
 /// <reference path="types/nitro-middleware.d.ts" />

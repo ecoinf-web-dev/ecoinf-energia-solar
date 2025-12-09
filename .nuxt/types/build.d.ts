@@ -16,7 +16,7 @@ declare module "#build/nuxt-scripts-trigger-resolver.mjs";
 declare module "#build/image-options.mjs";
 declare module "#build/color-mode-options.mjs";
 declare module "#build/devtools/settings.mjs";
-declare module "#build/runtime.vue-devtools-client.mJlQzzYj_rvH_dcXM5hbVam43gGZMwYfz0E8_2lG5G4.js";
+declare module "#build/runtime.vue-devtools-client.GcXGdBrEWOv6kxF7kwPYF3nAoR_ZnYUk1Fod4fKiVx4.js";
 declare module "#build/routes.mjs";
 declare module "#build/pages.mjs";
 declare module "#build/router.options.mjs";

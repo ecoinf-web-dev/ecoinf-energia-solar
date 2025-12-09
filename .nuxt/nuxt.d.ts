@@ -12,7 +12,7 @@
 /// <reference path="types/app.config.d.ts" />
 /// <reference path="types/runtime-config.d.ts" />
 /// <reference types="nuxt/app" />
-/// <reference types="C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/ecoinf-energia-solar-dev3/ecoinf-energia-solar-dev3/node_modules/@nuxt/nitro-server/dist/index.mjs" />
+/// <reference types="C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/@nuxt/nitro-server/dist/index.mjs" />
 /// <reference path="image/providers.d.ts" />
 /// <reference path="types/ui.d.ts" />
 /// <reference path="../node_modules/@nuxt/ui/dist/runtime/types/app.config.d.ts" />

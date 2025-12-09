@@ -30,29 +30,33 @@
 									</div>
 									Qual é o tipo do seu telhado?
 								</label>
-								<div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+								<div class="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
 									<button
 										v-for="option in roofTypeOptions"
 										:key="option.value"
 										type="button"
 										:class="[
-											'p-4 rounded-xl border-2 transition-all duration-300 text-left hover:shadow-lg transform hover:scale-105',
+											'p-3 sm:p-4 rounded-xl border-2 transition-all duration-300 text-center hover:shadow-lg transform hover:scale-105',
 											form.roofType === option.value ?
 												'border-orange-500 bg-orange-50 text-orange-700 shadow-lg scale-105'
 											:	'border-gray-300 bg-white text-gray-700 hover:border-orange-300',
 										]"
 										@click="selectRoofType(option.value)">
-										<div class="flex items-center">
+										<div class="flex flex-col items-center">
 											<i
 												:class="[
 													option.icon,
-													'text-2xl mr-3 text-orange-500',
+													'text-xl sm:text-2xl mb-2 text-orange-500',
 												]"></i>
 											<div>
-												<div class="font-semibold">{{ option.label }}</div>
-												<div class="text-sm text-gray-500">{{
-													option.description
-												}}</div>
+												<div
+													class="font-semibold text-xs sm:text-sm leading-tight">
+													{{ option.label }}
+												</div>
+												<div
+													class="text-[10px] sm:text-xs text-gray-500 leading-tight mt-0.5">
+													{{ option.description }}
+												</div>
 											</div>
 										</div>
 									</button>
@@ -72,29 +76,33 @@
 									</div>
 									Qual é o tipo da estrutura do telhado?
 								</label>
-								<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+								<div class="grid grid-cols-2 gap-3 sm:gap-4">
 									<button
 										v-for="option in structureTypeOptions"
 										:key="option.value"
 										type="button"
 										:class="[
-											'p-4 rounded-xl border-2 transition-all duration-300 text-left hover:shadow-lg transform hover:scale-105',
+											'p-3 sm:p-4 rounded-xl border-2 transition-all duration-300 text-center hover:shadow-lg transform hover:scale-105',
 											form.structureType === option.value ?
 												'border-orange-500 bg-orange-50 text-orange-700 shadow-lg scale-105'
 											:	'border-gray-300 bg-white text-gray-700 hover:border-orange-300',
 										]"
 										@click="selectStructureType(option.value)">
-										<div class="flex items-center">
+										<div class="flex flex-col items-center">
 											<i
 												:class="[
 													option.icon,
-													'text-2xl mr-3 text-orange-500',
+													'text-xl sm:text-2xl mb-2 text-orange-500',
 												]"></i>
 											<div>
-												<div class="font-semibold">{{ option.label }}</div>
-												<div class="text-sm text-gray-500">{{
-													option.description
-												}}</div>
+												<div
+													class="font-semibold text-xs sm:text-sm leading-tight">
+													{{ option.label }}
+												</div>
+												<div
+													class="text-[10px] sm:text-xs text-gray-500 leading-tight mt-0.5">
+													{{ option.description }}
+												</div>
 											</div>
 										</div>
 									</button>
