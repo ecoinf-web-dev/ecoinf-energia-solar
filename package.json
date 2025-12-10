@@ -17,7 +17,7 @@
 	},
 	"scripts": {
 		"eslint:lint": "eslint . --fix",
-		"nuxt:dev": "nuxt dev --host 0.0.0.0",
+		"nuxt:dev": "nuxt dev --host localhost",
 		"nuxt:generate": "nuxt generate",
 		"nuxt:prepare": "nuxt prepare",
 		"prettier:format": "prettier --write \"**/*.*\""
