@@ -25,7 +25,7 @@
 						class="w-full px-6 py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
 						@click="toggleFaq(0)">
 						<h3 class="text-lg lg:text-xl font-semibold text-gray-800 pr-4">
-							O que são placas solares e como funcionam?
+							O que são placas solares e como funcionam? teste
 						</h3>
 						<div class="shrink-0">
 							<svg
