@@ -243,9 +243,9 @@
     "../node_modules/dist/runtime/server",
     "../node_modules/nuxt-site-config/dist/runtime/server",
     "../node_modules/nuxt-site-config/dist/dist/runtime/server",
+    "../server/**/*",
     "../shared/**/*.d.ts",
-    "./types/nitro.d.ts",
-    "../server/**/*"
+    "./types/nitro.d.ts"
   ],
   "exclude": [
     "../node_modules",

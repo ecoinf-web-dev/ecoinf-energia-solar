@@ -235,6 +235,8 @@
     "./nuxt.d.ts",
     "../app/**/*",
     "../modules/*/runtime/**/*",
+    "../test/nuxt/**/*",
+    "../tests/nuxt/**/*",
     "../layers/*/app/**/*",
     "../layers/*/modules/*/runtime/**/*",
     "../shared/**/*.d.ts",
