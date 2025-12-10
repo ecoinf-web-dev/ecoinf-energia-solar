@@ -46,7 +46,7 @@
 <script setup lang="ts">
 	const testimonials = [
 		{
-			image: "/avaliacao1.webp",
+			image: "/avaliacao1.png",
 			link: "https://www.google.com/maps/place/Ecoinf+Energia+Solar/@-15.9036097,-48.0649324,17z/data=!4m14!1m5!8m4!1e1!2s108733212841338830955!3m1!1e1!3m7!1s0x935a33f85f1e1bf7:0x7148680c7ba9fdd1!8m2!3d-15.9036149!4d-48.0623575!9m1!1b1!16s%2Fg%2F11vk7fsstm?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MTIwOC4wIKXMDSoASAFQAw%3D%3D",
 		},
 		{
