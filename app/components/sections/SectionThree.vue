@@ -78,11 +78,10 @@
 
 					<!-- Container dos cards -->
 					<div class="relative z-10">
-						<NuxtImg
+						<img
 							src="/img/cards.webp"
 							alt="Cards mostrando benefícios da energia solar: Flexibilidade de Instalação, Longa Vida Útil e Independência Energética"
 							class="w-full h-auto"
-							format="webp"
 							loading="lazy" />
 
 						<!-- Efeito de brilho sutil -->

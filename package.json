@@ -1,6 +1,5 @@
 {
 	"dependencies": {
-		"@nuxt/image": "^2.0.0",
 		"@nuxt/scripts": "^0.13.0",
 		"@nuxt/ui": "^4.2.1",
 		"@nuxtjs/seo": "3.2.2",
@@ -17,7 +16,8 @@
 	},
 	"scripts": {
 		"eslint:lint": "eslint . --fix",
-		"nuxt:dev": "nuxt dev --host localhost",
+		"nuxt:dev:expose": "nuxt dev --host 0.0.0.0",
+		"nuxt:dev:local": "nuxt dev --host localhost",
 		"nuxt:generate": "nuxt generate",
 		"nuxt:prepare": "nuxt prepare",
 		"prettier:format": "prettier --write \"**/*.*\""

@@ -12,12 +12,11 @@
 
 					<!-- Container da imagem -->
 					<div class="relative z-10">
-						<NuxtImg
-							src="./img/placas.webp"
+						<img
+							src="/img/placas.webp"
 							alt="Instalação de placas solares no telhado e no solo"
 							class="w-full h-auto rounded-2xl"
-							loading="lazy"
-							format="webp" />
+							loading="lazy" />
 
 						<!-- Badge flutuante -->
 						<div

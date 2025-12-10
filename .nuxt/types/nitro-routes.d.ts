@@ -60,9 +60,6 @@ declare module "nitropack/types" {
     '/__schema-org__/debug.json': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-schema-org/dist/runtime/server/routes/__schema-org__/debug').default>>>>
     }
-    '/_ipx/**': {
-      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/image/dist/runtime/server/routes/_ipx').default>>>>
-    }
   }
 }
 export {}

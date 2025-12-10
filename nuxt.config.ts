@@ -7,36 +7,12 @@ export default defineNuxtConfig({
 		"@nuxt/scripts",
 		"@nuxtjs/seo",
 		"@nuxt/icon",
-		"@nuxt/image",
 		"@nuxt/ui",
 	],
 
 	css: ["~/assets/css/index.css"],
 
 	site: { url: "ecoinfenergiasolar.com.br" },
-
-	image: {
-		format: ["webp"],
-		quality: 80,
-		densities: [1, 2],
-		screens: {
-			"xs": 320,
-			"sm": 640,
-			"md": 768,
-			"lg": 1024,
-			"xl": 1280,
-			"xxl": 1536,
-			"2xl": 1536,
-		},
-		providers: {
-			ipx: {
-				modifiers: {
-					format: "webp",
-					quality: 80,
-				},
-			},
-		},
-	},
 
 	routeRules: {
 		"/": { prerender: true },
@@ -50,9 +26,6 @@ export default defineNuxtConfig({
 			headers: { "cache-control": "public, max-age=31536000, immutable" },
 		},
 		"/img/logo-sol.webp": {
-			headers: { "cache-control": "public, max-age=31536000, immutable" },
-		},
-		"/_ipx/**": {
 			headers: { "cache-control": "public, max-age=31536000, immutable" },
 		},
 	},

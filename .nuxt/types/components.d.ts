@@ -174,8 +174,8 @@ interface _GlobalComponents {
   'NuxtLoadingIndicator': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-loading-indicator").default
   'NuxtTime': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-time.vue").default
   'NuxtRouteAnnouncer': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-route-announcer").default
-  'NuxtImg': typeof import("../../node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue").default
-  'NuxtPicture': typeof import("../../node_modules/@nuxt/image/dist/runtime/components/NuxtPicture.vue").default
+  'NuxtImg': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-stubs").NuxtImg
+  'NuxtPicture': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-stubs").NuxtPicture
   'Icon': typeof import("../../node_modules/@nuxt/icon/dist/runtime/components/index").default
   'ColorScheme': typeof import("../../node_modules/@nuxtjs/color-mode/dist/runtime/component.vue3.vue").default
   'NuxtPage': typeof import("../../node_modules/nuxt/dist/pages/runtime/page").default
@@ -188,8 +188,6 @@ interface _GlobalComponents {
   'Head': typeof import("../../node_modules/nuxt/dist/head/runtime/components").Head
   'Html': typeof import("../../node_modules/nuxt/dist/head/runtime/components").Html
   'Body': typeof import("../../node_modules/nuxt/dist/head/runtime/components").Body
-  'OgImage': typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImage").default
-  'OgImageScreenshot': typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImageScreenshot").default
   'SchemaOrgDebug': typeof import("@unhead/schema-org/vue").SchemaOrgDebug
   'SchemaOrgArticle': typeof import("@unhead/schema-org/vue").SchemaOrgArticle
   'SchemaOrgBreadcrumb': typeof import("@unhead/schema-org/vue").SchemaOrgBreadcrumb
@@ -375,8 +373,8 @@ interface _GlobalComponents {
   'LazyNuxtLoadingIndicator': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-loading-indicator").default>
   'LazyNuxtTime': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-time.vue").default>
   'LazyNuxtRouteAnnouncer': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-route-announcer").default>
-  'LazyNuxtImg': LazyComponent<typeof import("../../node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue").default>
-  'LazyNuxtPicture': LazyComponent<typeof import("../../node_modules/@nuxt/image/dist/runtime/components/NuxtPicture.vue").default>
+  'LazyNuxtImg': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-stubs").NuxtImg>
+  'LazyNuxtPicture': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-stubs").NuxtPicture>
   'LazyIcon': LazyComponent<typeof import("../../node_modules/@nuxt/icon/dist/runtime/components/index").default>
   'LazyColorScheme': LazyComponent<typeof import("../../node_modules/@nuxtjs/color-mode/dist/runtime/component.vue3.vue").default>
   'LazyNuxtPage': LazyComponent<typeof import("../../node_modules/nuxt/dist/pages/runtime/page").default>
@@ -389,8 +387,6 @@ interface _GlobalComponents {
   'LazyHead': LazyComponent<typeof import("../../node_modules/nuxt/dist/head/runtime/components").Head>
   'LazyHtml': LazyComponent<typeof import("../../node_modules/nuxt/dist/head/runtime/components").Html>
   'LazyBody': LazyComponent<typeof import("../../node_modules/nuxt/dist/head/runtime/components").Body>
-  'LazyOgImage': LazyComponent<typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImage").default>
-  'LazyOgImageScreenshot': LazyComponent<typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImageScreenshot").default>
   'LazySchemaOrgDebug': LazyComponent<typeof import("@unhead/schema-org/vue").SchemaOrgDebug>
   'LazySchemaOrgArticle': LazyComponent<typeof import("@unhead/schema-org/vue").SchemaOrgArticle>
   'LazySchemaOrgBreadcrumb': LazyComponent<typeof import("@unhead/schema-org/vue").SchemaOrgBreadcrumb>

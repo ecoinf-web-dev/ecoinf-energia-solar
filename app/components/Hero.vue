@@ -14,15 +14,12 @@
 		class="relative min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 flex flex-col items-center justify-center overflow-hidden">
 		<!-- Imagem de fundo profissional -->
 		<div class="absolute inset-0 z-0">
-			<NuxtImg
-				src="./img/hero.webp"
+			<img
+				src="/img/hero.webp"
 				alt="Técnico profissional instalando painéis solares"
 				class="w-full h-full brightness-50 object-cover"
-				quality="80"
-				format="webp"
 				loading="eager"
-				fetchpriority="high"
-				preload />
+				fetchpriority="high" />
 		</div>
 
 		<!-- Elementos decorativos de fundo (sóis/luzes) - com menor intensidade -->

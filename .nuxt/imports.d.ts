@@ -82,7 +82,6 @@ export { useScriptNpm } from '../node_modules/@nuxt/scripts/dist/runtime/registr
 export { useScriptGoogleTagManager } from '../node_modules/@nuxt/scripts/dist/runtime/registry/google-tag-manager';
 export { useScriptGoogleAnalytics } from '../node_modules/@nuxt/scripts/dist/runtime/registry/google-analytics';
 export { useScriptUmamiAnalytics } from '../node_modules/@nuxt/scripts/dist/runtime/registry/umami-analytics';
-export { useImage } from '../node_modules/@nuxt/image/dist/runtime/composables';
 export { useColorMode } from '../node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { useRobotsRule } from '../node_modules/@nuxtjs/robots/dist/runtime/app/composables/useRobotsRule';

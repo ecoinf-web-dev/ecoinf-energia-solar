@@ -175,7 +175,6 @@ declare global {
   const useHydration: typeof import('../../node_modules/nuxt/dist/app/composables/hydrate').useHydration
   const useI18n: typeof import('../../node_modules/nuxt-seo-utils/dist/runtime/app/composables/polyfills').useI18n
   const useId: typeof import('../../node_modules/vue').useId
-  const useImage: typeof import('../../node_modules/@nuxt/image/dist/runtime/composables').useImage
   const useKbd: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useKbd').useKbd
   const useLazyAsyncData: typeof import('../../node_modules/nuxt/dist/app/composables/asyncData').useLazyAsyncData
   const useLazyFetch: typeof import('../../node_modules/nuxt/dist/app/composables/fetch').useLazyFetch
@@ -445,7 +444,6 @@ declare module 'vue' {
     readonly useHydration: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/hydrate')['useHydration']>
     readonly useI18n: UnwrapRef<typeof import('../../node_modules/nuxt-seo-utils/dist/runtime/app/composables/polyfills')['useI18n']>
     readonly useId: UnwrapRef<typeof import('../../node_modules/vue')['useId']>
-    readonly useImage: UnwrapRef<typeof import('../../node_modules/@nuxt/image/dist/runtime/composables')['useImage']>
     readonly useKbd: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useKbd')['useKbd']>
     readonly useLazyAsyncData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/asyncData')['useLazyAsyncData']>
     readonly useLazyFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/fetch')['useLazyFetch']>

@@ -1,6 +1,5 @@
 /// <reference types="@nuxt/eslint" />
 /// <reference types="@nuxt/scripts" />
-/// <reference types="@nuxt/image" />
 /// <reference types="@nuxtjs/seo" />
 /// <reference types="@nuxt/icon" />
 /// <reference types="@nuxt/ui" />
@@ -13,7 +12,6 @@
 /// <reference path="types/runtime-config.d.ts" />
 /// <reference types="nuxt/app" />
 /// <reference types="C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/Energia Solar - Site/node_modules/@nuxt/nitro-server/dist/index.mjs" />
-/// <reference path="image/providers.d.ts" />
 /// <reference path="types/ui.d.ts" />
 /// <reference path="../node_modules/@nuxt/ui/dist/runtime/types/app.config.d.ts" />
 /// <reference types="vue-router" />

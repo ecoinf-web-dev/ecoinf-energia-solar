@@ -70,12 +70,11 @@
 						@click="openModal(index)">
 						<div
 							class="relative w-72 h-56 md:w-80 md:h-60 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-							<NuxtImg
+							<img
 								:src="image.src"
 								:alt="image.alt"
 								class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-								loading="lazy"
-								format="webp" />
+								loading="lazy" />
 							<!-- Overlay com efeito hover -->
 							<div
 								class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -211,12 +210,10 @@
 						<div
 							:key="selectedImage"
 							class="relative w-full h-full flex flex-col items-center justify-center">
-							<NuxtImg
+							<img
 								:src="galleryImages[selectedImage]?.src"
 								:alt="galleryImages[selectedImage]?.alt"
-								class="max-w-full max-h-[80vh] object-contain rounded-lg shadow-2xl"
-								format="webp"
-								quality="90" />
+								class="max-w-full max-h-[80vh] object-contain rounded-lg shadow-2xl" />
 
 							<!-- Legenda -->
 							<div class="mt-4 text-center">

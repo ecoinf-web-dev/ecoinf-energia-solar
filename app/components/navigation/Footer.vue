@@ -38,13 +38,13 @@
 				<div class="lg:col-span-1">
 					<!-- Logo Ecoinf -->
 					<div class="mb-6">
-						<div class="flex items-center space-x-3">
-							<NuxtImg
+						<div
+							class="flex items-center justify-center space-x-3 bg-white/95 backdrop-blur-sm px-4 py-3 lg:px-6 lg:py-4 rounded-br-3xl rounded-tl-3xl shadow-md">
+							<img
 								src="/img/logo-final.png"
 								alt="ECOINF Energia Solar Fotovoltaica"
 								class="w-auto h-14"
-								loading="lazy"
-								format="webp" />
+								loading="lazy" />
 						</div>
 					</div>
 

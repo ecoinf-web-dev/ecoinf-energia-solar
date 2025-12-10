@@ -4,12 +4,11 @@
 		<!-- Logo Container com fundo claro -->
 		<div
 			class="shrink-0 bg-white/95 backdrop-blur-sm px-4 py-3 lg:px-6 lg:py-4 rounded-br-3xl shadow-md">
-			<NuxtImg
-				src="./img/logo-final.png"
+			<img
+				src="/img/logo-final.png"
 				alt="ECOINF Energia Solar Fotovoltaica"
-				loading="lazy"
-				height="50"
-				format="webp" />
+				class="w-auto h-14"
+				loading="lazy" />
 		</div>
 
 		<!-- Área de navegação -->
