@@ -127,13 +127,14 @@
 							O custo de um sistema de energia solar varia conforme diversos
 							fatores como tamanho do sistema, consumo energético e
 							características específicas da instalação. Para entender todos os
-							detalhes sobre preços e retorno do investimento,
-							<a
+							detalhes sobre preços e retorno do investimento, entre em contato
+							conosco!
+							<!--<a
 								href="https://ecoinfenergiasolar.com.br/blog/quanto-custa-um-sistema-de-energia-solar/"
 								target="_blank"
 								class="text-orange-500 font-medium hover:text-orange-600 transition-colors duration-200 underline">
 								confira nosso guia completo sobre custos de energia solar </a
-							>.
+							>.-->
 						</p>
 					</div>
 				</div>
@@ -184,7 +185,11 @@
 				</p>
 				<div class="flex flex-col sm:flex-row gap-4 justify-center">
 					<a
-						onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=556196784216&amp;text=Ol%C3%A1%2C%20quero%20economizar%20na%20minha%20conta%20de%20luz.%20%F0%9F%94%86');"
+						onclick="
+							return gtag_report_conversion(
+								'https://api.whatsapp.com/send?phone=556196784216&amp;text=Ol%C3%A1%2C%20quero%20economizar%20na%20minha%20conta%20de%20luz.%20%F0%9F%94%86',
+							);
+						"
 						href="https://api.whatsapp.com/send?phone=556196784216&amp;text=Ol%C3%A1%2C%20quero%20economizar%20na%20minha%20conta%20de%20luz.%20%F0%9F%94%86"
 						class="inline-flex items-center justify-center px-8 py-4 bg-linear-to-r from-orange-500 to-amber-500 text-white font-semibold rounded-lg hover:from-orange-600 hover:to-amber-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
 						<svg

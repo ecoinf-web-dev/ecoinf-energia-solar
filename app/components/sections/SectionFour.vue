@@ -252,12 +252,12 @@
 								class="bg-white text-orange-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-transform hover:scale-105 shadow-lg">
 								Solicitar Orçamento
 							</a>
-							<a
+							<!--<a
 								href="https://ecoinfenergiasolar.com.br/blog/quanto-custa-um-sistema-de-energia-solar/"
 								target="_blank"
 								class="bg-orange-600/30 border border-white/30 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-orange-600/50 transition-transform hover:scale-105 backdrop-blur-sm">
 								Saiba Mais
-							</a>
+							</a>-->
 						</div>
 					</div>
 

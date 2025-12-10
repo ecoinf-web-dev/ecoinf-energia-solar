@@ -74,14 +74,14 @@
 							FAQ
 						</a>
 					</li>
-					<li class="w-full md:w-auto">
+					<!--li class="w-full md:w-auto">
 						<a
 							href="https://ecoinfenergiasolar.com.br/blog/"
 							class="block w-full md:w-auto py-3 px-4 md:py-2 md:px-0 text-yellow-400 font-medium text-sm lg:text-xl transition-all duration-300 border-l-4 border-transparent md:border-none hover:border-yellow-400 md:hover:border-none hover:bg-gray-800 md:hover:bg-transparent hover:md:scale-105"
 							@click="closeMobileMenu">
 							Blog
 						</a>
-					</li>
+					</li>-->
 				</ul>
 			</nav>
 
