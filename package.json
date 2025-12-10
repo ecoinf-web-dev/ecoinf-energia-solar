@@ -4,15 +4,15 @@
 		"@nuxt/scripts": "^0.13.0",
 		"@nuxt/ui": "^4.2.1",
 		"@nuxtjs/seo": "3.2.2",
-		"nuxt": "4.2.1"
+		"nuxt": "^4.2.2"
 	},
 	"devDependencies": {
+		"@nuxt/eslint": "^1.12.1",
 		"@nuxt/icon": "^2.1.0",
 		"eslint": "9.39.1",
 		"eslint-config-prettier": "10.1.8",
 		"eslint-plugin-prettier": "5.5.4",
-		"prettier": "3.6.2",
-		"@nuxt/eslint": "1.10.0",
+		"prettier": "^3.7.4",
 		"typescript": "^5.9.3"
 	},
 	"scripts": {

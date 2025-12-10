@@ -326,6 +326,8 @@ interface _GlobalComponents {
   'Head': typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Head']
   'Html': typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Html']
   'Body': typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Body']
+  'OgImage': typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImage")['default']
+  'OgImageScreenshot': typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImageScreenshot")['default']
   'SchemaOrgDebug': typeof import("@unhead/schema-org/vue")['SchemaOrgDebug']
   'SchemaOrgArticle': typeof import("@unhead/schema-org/vue")['SchemaOrgArticle']
   'SchemaOrgBreadcrumb': typeof import("@unhead/schema-org/vue")['SchemaOrgBreadcrumb']
@@ -663,6 +665,8 @@ interface _GlobalComponents {
   'LazyHead': LazyComponent<typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Head']>
   'LazyHtml': LazyComponent<typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Html']>
   'LazyBody': LazyComponent<typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Body']>
+  'LazyOgImage': LazyComponent<typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImage")['default']>
+  'LazyOgImageScreenshot': LazyComponent<typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImageScreenshot")['default']>
   'LazySchemaOrgDebug': LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgDebug']>
   'LazySchemaOrgArticle': LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgArticle']>
   'LazySchemaOrgBreadcrumb': LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgBreadcrumb']>

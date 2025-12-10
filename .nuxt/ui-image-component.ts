@@ -1,1 +1,1 @@
-export { default } from "C:/Users/gjoli/OneDrive/Área de Trabalho/ecoinf-energia-solar/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue";
+export { default } from "C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/Energia Solar - Site/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue";
