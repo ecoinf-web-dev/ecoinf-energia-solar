@@ -129,12 +129,12 @@
 							características específicas da instalação. Para entender todos os
 							detalhes sobre preços e retorno do investimento, entre em contato
 							conosco!
-							<!--<a
+							<a
 								href="https://ecoinfenergiasolar.com.br/blog/quanto-custa-um-sistema-de-energia-solar/"
 								target="_blank"
 								class="text-orange-500 font-medium hover:text-orange-600 transition-colors duration-200 underline">
 								confira nosso guia completo sobre custos de energia solar </a
-							>.-->
+							>.
 						</p>
 					</div>
 				</div>

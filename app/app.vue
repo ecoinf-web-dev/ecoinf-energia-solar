@@ -27,8 +27,8 @@
 		});
 
 		onLoaded(() => {
-      window.dataLayer = window.dataLayer || [];
-      // eslint-disable-any
+			window.dataLayer = window.dataLayer || [];
+			// eslint-disable-any
 			function gtag(..._args: any[]) {
 				// eslint-disable-next-line prefer-rest-params
 				window.dataLayer.push(arguments);

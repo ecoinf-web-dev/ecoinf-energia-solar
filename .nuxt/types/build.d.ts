@@ -15,7 +15,7 @@ declare module "#build/test-component-wrapper.mjs";
 declare module "#build/nuxt-scripts-trigger-resolver.mjs";
 declare module "#build/color-mode-options.mjs";
 declare module "#build/devtools/settings.mjs";
-declare module "#build/runtime.vue-devtools-client.rhz12yn_FkWgqZ96jIXgjgnO8hGpZYSS_zMZt2z4RUM.js";
+declare module "#build/runtime.vue-devtools-client.osj2KdM_qM1YPEfNqwVkvDH2317aPYF6LVGO896GnPA.js";
 declare module "#build/routes.mjs";
 declare module "#build/pages.mjs";
 declare module "#build/router.options.mjs";

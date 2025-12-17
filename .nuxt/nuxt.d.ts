@@ -11,7 +11,7 @@
 /// <reference path="types/app.config.d.ts" />
 /// <reference path="types/runtime-config.d.ts" />
 /// <reference types="nuxt/app" />
-/// <reference types="C:/Users/gjoli/OneDrive/Área de Trabalho/Arquivos/Energia Solar - Site/node_modules/@nuxt/nitro-server/dist/index.mjs" />
+/// <reference types="D:/ecoinf-energia-solar/node_modules/@nuxt/nitro-server/dist/index.mjs" />
 /// <reference path="types/ui.d.ts" />
 /// <reference path="../node_modules/@nuxt/ui/dist/runtime/types/app.config.d.ts" />
 /// <reference types="vue-router" />

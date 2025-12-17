@@ -81,7 +81,7 @@
 				</a>
 
 				<button
-					onclick="window.location.href = '#placas';"
+					onclick="window.location.href = '#placas'"
 					class="inline-flex items-center px-6 py-4 border-2 border-amber-400 text-amber-400 font-medium rounded-lg hover:bg-amber-400 hover:text-slate-900 transition-all duration-300">
 					Saiba Mais
 				</button>

@@ -194,7 +194,9 @@ import { RuntimeConfig as UserRuntimeConfig, PublicRuntimeConfig as UserPublicRu
 
       rootDir: string,
 
-      excludeLinks: Array<any>,
+      excludeLinks: Array<{
+
+      }>,
 
       skipInspections: Array<any>,
 
