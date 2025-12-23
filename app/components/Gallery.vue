@@ -268,18 +268,6 @@
 			description: "Instalação completa de painéis solares",
 		},
 		{
-			src: "/galeria/galeria4.webp",
-			alt: "Instalação de painéis solares - Projeto 4",
-			title: "Projeto Residencial 4",
-			description: "Instalação completa de painéis solares",
-		},
-		{
-			src: "/galeria/galeria5.webp",
-			alt: "Instalação de painéis solares - Projeto 5",
-			title: "Projeto Residencial 5",
-			description: "Instalação completa de painéis solares",
-		},
-		{
 			src: "/galeria/galeria6.webp",
 			alt: "Instalação de painéis solares - Projeto 6",
 			title: "Projeto Residencial 6",
