@@ -256,6 +256,12 @@
 			description: "Instalação completa de painéis solares",
 		},
 		{
+			src: "/galeria/galeria2.webp",
+			alt: "Instalação de painéis solares - Projeto 2",
+			title: "Projeto Residencial 2",
+			description: "Instalação completa de painéis solares",
+		},
+		{
 			src: "/galeria/galeria3.webp",
 			alt: "Instalação de painéis solares - Projeto 3",
 			title: "Projeto Residencial 3",
@@ -286,33 +292,39 @@
 			description: "Instalação completa de painéis solares",
 		},
 		{
+			src: "/galeria/galeria8.webp",
+			alt: "Instalação de painéis solares - Projeto 8",
+			title: "Projeto Residencial 8",
+			description: "Instalação completa de painéis solares",
+		},
+		{
 			src: "/galeria/galeria9.webp",
 			alt: "Instalação de painéis solares - Projeto 9",
 			title: "Projeto Residencial 9",
 			description: "Instalação completa de painéis solares",
 		},
 		{
-			src: "/galeria/galeria10.webp",
+			src: "/galeria/galeria10.jpeg",
 			alt: "Instalação de painéis solares - Projeto 10",
 			title: "Projeto Residencial 10",
 			description: "Instalação completa de painéis solares",
 		},
 		{
-			src: "/galeria/galeria12.webp",
+			src: "/galeria/galeria11.jpeg",
+			alt: "Instalação de painéis solares - Projeto 11",
+			title: "Projeto Residencial 11",
+			description: "Instalação completa de painéis solares",
+		},
+		{
+			src: "/galeria/galeria12.jpeg",
 			alt: "Instalação de painéis solares - Projeto 12",
 			title: "Projeto Residencial 12",
 			description: "Instalação completa de painéis solares",
 		},
 		{
-			src: "/galeria/galeria13.webp",
+			src: "/galeria/galeria13.jpeg",
 			alt: "Instalação de painéis solares - Projeto 13",
 			title: "Projeto Residencial 13",
-			description: "Instalação completa de painéis solares",
-		},
-		{
-			src: "/galeria/galeria14.webp",
-			alt: "Instalação de painéis solares - Projeto 14",
-			title: "Projeto Residencial 14",
 			description: "Instalação completa de painéis solares",
 		},
 	];
