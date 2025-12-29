@@ -13,7 +13,7 @@
 	// Carrega os scripts apenas no cliente e após o carregamento inicial para não bloquear a renderização
 	if (import.meta.client) {
 		const { onLoaded, load } = useScript(
-			"https://www.googletagmanager.com/gtag/js?id=AW-17545357031",
+			"https://www.googletagmanager.com/gtag/js?id=AW-17330640604",
 			{
 				trigger: "manual",
 			},
@@ -28,24 +28,23 @@
 
 		onLoaded(() => {
 			window.dataLayer = window.dataLayer || [];
-			// eslint-disable-any
-			function gtag(..._args: any[]) {
+			function gtag(..._args: (string | Date | Record<string, unknown>)[]) {
 				// eslint-disable-next-line prefer-rest-params
 				window.dataLayer.push(arguments);
 			}
 			window.gtag = gtag;
 			gtag("js", new Date());
-			gtag("config", "AW-17545357031");
+			gtag("config", "AW-17330640604");
 
-			// Event snippet for Contato conversion page
-			window.gtag_report_conversion = function (url) {
+			// Event snippet for WhatsApp conversion page
+			window.gtag_report_conversion = function (url?: string) {
 				const callback = function () {
-					if (typeof url != "undefined") {
+					if (typeof url !== "undefined") {
 						window.location.href = url;
 					}
 				};
 				gtag("event", "conversion", {
-					send_to: "AW-17545357031/SH--CJS6zpcbEOfNo65B",
+					send_to: "AW-17330640604/Te9iCOzenu0aENyt8sdA",
 					event_callback: callback,
 				});
 				return false;
