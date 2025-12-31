@@ -51,10 +51,10 @@
 				</div>
 				<div
 					v-if="shouldShowFade"
-					class="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-amber-50 via-amber-50/70 to-transparent sm:hidden"></div>
+					class="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-amber-50 via-amber-50/80 to-transparent"></div>
 			</div>
 
-			<div class="mt-6 flex justify-center sm:hidden">
+			<div class="mt-6 flex justify-center">
 				<button
 					type="button"
 					class="px-5 py-2.5 rounded-full bg-orange-500 text-white text-sm font-semibold shadow-lg shadow-orange-200/70 hover:bg-orange-600 active:translate-y-[1px] transition-all duration-200"
@@ -88,7 +88,7 @@
 	const mobileCollapseClass = computed<string>(() =>
 		showAll.value ?
 			"sm:columns-2 lg:columns-3 xl:columns-4"
-		:	"max-h-[1200px] overflow-hidden sm:max-h-none sm:overflow-visible",
+		:	"max-h-[1600px] sm:max-h-[2000px] lg:max-h-[2400px] xl:max-h-[2600px] overflow-hidden",
 	);
 
 	const shouldShowFade = computed<boolean>(() => !showAll.value);
@@ -100,51 +100,83 @@
 	const galleryImages: readonly GalleryImage[] = [
 		{
 			src: "/galeria/galeria1.webp",
-			alt: "Instalação fotovoltaica — Projeto 1 (WEBP)",
-		},
-		{
-			src: "/galeria/galeria1.jpeg",
-			alt: "Instalação fotovoltaica — Projeto 1 (JPEG)",
-		},
-		{
-			src: "/galeria/galeria2.webp",
-			alt: "Instalação fotovoltaica — Projeto 2 (WEBP)",
+			alt: "Instalação fotovoltaica — Projeto 1",
 		},
 		{
 			src: "/galeria/galeria3.webp",
-			alt: "Instalação fotovoltaica — Projeto 3 (WEBP)",
+			alt: "Instalação fotovoltaica — Projeto 3",
+		},
+		{
+			src: "/galeria/galeria4.webp",
+			alt: "Instalação fotovoltaica — Projeto 4",
+		},
+		{
+			src: "/galeria/galeria5.webp",
+			alt: "Instalação fotovoltaica — Projeto 5",
 		},
 		{
 			src: "/galeria/galeria6.webp",
-			alt: "Instalação fotovoltaica — Projeto 6 (WEBP)",
+			alt: "Instalação fotovoltaica — Projeto 6",
 		},
 		{
 			src: "/galeria/galeria7.webp",
-			alt: "Instalação fotovoltaica — Projeto 7 (WEBP)",
+			alt: "Instalação fotovoltaica — Projeto 7",
 		},
 		{
 			src: "/galeria/galeria8.webp",
-			alt: "Instalação fotovoltaica — Projeto 8 (WEBP)",
+			alt: "Instalação fotovoltaica — Projeto 8",
 		},
 		{
 			src: "/galeria/galeria9.webp",
-			alt: "Instalação fotovoltaica — Projeto 9 (WEBP)",
+			alt: "Instalação fotovoltaica — Projeto 9",
 		},
 		{
-			src: "/galeria/galeria10.jpeg",
-			alt: "Instalação fotovoltaica — Projeto 10 (JPEG)",
+			src: "/galeria/galeria10.webp",
+			alt: "Instalação fotovoltaica — Projeto 10",
 		},
 		{
-			src: "/galeria/galeria11.jpeg",
-			alt: "Instalação fotovoltaica — Projeto 11 (JPEG)",
+			src: "/galeria/galeria11.webp",
+			alt: "Instalação fotovoltaica — Projeto 11",
 		},
 		{
-			src: "/galeria/galeria12.jpeg",
-			alt: "Instalação fotovoltaica — Projeto 12 (JPEG)",
+			src: "/galeria/galeria12.webp",
+			alt: "Instalação fotovoltaica — Projeto 12",
 		},
 		{
-			src: "/galeria/galeria13.jpeg",
-			alt: "Instalação fotovoltaica — Projeto 13 (JPEG)",
+			src: "/galeria/galeria13.webp",
+			alt: "Instalação fotovoltaica — Projeto 13",
+		},
+		{
+			src: "/galeria/galeria14.webp",
+			alt: "Instalação fotovoltaica — Projeto 14",
+		},
+		{
+			src: "/galeria/galeria15.webp",
+			alt: "Instalação fotovoltaica — Projeto 15",
+		},
+		{
+			src: "/galeria/galeria16.webp",
+			alt: "Instalação fotovoltaica — Projeto 16",
+		},
+		{
+			src: "/galeria/galeria17.webp",
+			alt: "Instalação fotovoltaica — Projeto 17",
+		},
+		{
+			src: "/galeria/galeria18.webp",
+			alt: "Instalação fotovoltaica — Projeto 18",
+		},
+		{
+			src: "/galeria/galeria19.webp",
+			alt: "Instalação fotovoltaica — Projeto 19",
+		},
+		{
+			src: "/galeria/galeria20.webp",
+			alt: "Instalação fotovoltaica — Projeto 20",
+		},
+		{
+			src: "/galeria/galeria21.webp",
+			alt: "Instalação fotovoltaica — Projeto 21",
 		},
 	];
 </script>
