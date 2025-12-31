@@ -1,13 +1,13 @@
 <template>
 	<div>
 		<Hero />
+		<LazyGallery />
+		<LazyTestimonials />
 		<LazySectionsSectionFour />
 		<LazySectionsSectionOne />
 		<LazyCalculatorSolar />
 		<LazySectionsSectionTwo />
 		<LazySectionsSectionThree />
-		<LazyGallery />
-		<LazyTestimonials />
 		<LazyFaq />
 	</div>
 </template>
