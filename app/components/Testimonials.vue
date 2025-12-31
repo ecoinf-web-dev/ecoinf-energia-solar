@@ -11,7 +11,7 @@
 	Dependências: script do Elfsight carregado via useHead para disponibilizar
 	o widget durante a renderização no cliente.
 	----------------------------------------------------------------------------
-	────────────────────────────────────────────────────────────────────────────-->
+	───────────────────────────────────────────────────────────────────────────-->
 
 <template>
 	<section
@@ -22,33 +22,14 @@
 			<div class="text-center mb-10 lg:mb-14">
 				<h2
 					class="text-3xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-					Avaliações Reais dos Nossos Clientes
+					<span class="text-orange-500">Avaliações Reais</span> dos Nossos
+					Clientes
 				</h2>
 				<p class="text-lg text-gray-700 max-w-3xl mx-auto">
-					Feedback coletado direto do Google Meu Negócio, mantendo a confiança
-					da comunidade em destaque.
+					Feedback direto do Google Meu Negócio, mantendo a confiança da
+					comunidade em destaque.
 				</p>
 			</div>
-
-			<div class="flex flex-col items-center gap-6 mb-8">
-				<div
-					class="inline-flex items-center gap-3 rounded-full bg-white shadow-lg shadow-amber-100 px-5 py-2 border border-orange-100">
-					<span
-						class="text-sm font-semibold uppercase tracking-wide text-orange-600">
-						Google Meu Negócio
-					</span>
-					<span class="flex items-center gap-2 text-gray-800 font-bold text-lg">
-						<span class="text-amber-500 text-xl">★</span>
-						4,9/5
-					</span>
-					<span class="text-sm text-gray-500">Avaliações verificadas</span>
-				</div>
-				<p class="text-center text-gray-600 text-base max-w-3xl">
-					Mantemos o widget sempre atualizado para que você veja opiniões reais
-					e recentes sobre nossos serviços.
-				</p>
-			</div>
-
 			<!--
 --------------------------------------------------------------------------------
  💬 Seção de Avaliações — Widget Google Meu Negócio

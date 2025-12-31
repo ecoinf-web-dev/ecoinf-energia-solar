@@ -6,12 +6,12 @@
   ----------------------------------------------------------------------------
   Estrutura:
   • Título e descrição da seção
-  • Grid responsivo de imagens
+  • Grid responsivo (masonry-like) com controle de colapso no mobile
   ----------------------------------------------------------------------------
   Dependências: Nenhuma externa; utiliza utilitários de estilo para layout e
   efeitos sutis de hover.
   ----------------------------------------------------------------------------
-  ────────────────────────────────────────────────────────────────────────────-->
+  ───────────────────────────────────────────────────────────────────────────-->
 
 <template>
 	<section
@@ -21,10 +21,10 @@
 			<div class="text-center mb-14">
 				<h2
 					class="text-3xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-					Alguns dos painéis Instalados
+					Nossos Últimos <span class="text-orange-500">Projetos</span>
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl mx-auto">
-					Veja nossos projetos com um layout limpo e responsivo.
+					Confira instalações que geram resultados.
 				</p>
 			</div>
 
@@ -33,26 +33,42 @@
    🧩 Grid Responsivo — Galeria Clean
   ---------------------------------------------------------------------------
    Layout em colunas (masonry-like) que preserva o aspect ratio original das
-   imagens, usando breakpoints para dinamismo e hover sutil.
+   imagens. Em telas estreitas, aplicamos colapso com fade e botão de mostrar
+   tudo para evitar scroll excessivo.
   -->
-			<div
-				class="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6 lg:gap-8 [column-fill:_balance]">
-				<div
-					v-for="(image, index) in galleryImages"
-					:key="index"
-					class="mb-6 break-inside-avoid overflow-hidden rounded-2xl bg-white shadow-md shadow-amber-100/70 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-					<img
-						:src="image.src"
-						:alt="image.alt"
-						class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
-						loading="lazy" />
+			<div class="relative">
+				<div :class="[gridBaseClass, mobileCollapseClass]">
+					<div
+						v-for="(image, index) in galleryImages"
+						:key="index"
+						class="group mb-6 break-inside-avoid overflow-hidden rounded-2xl bg-white shadow-md shadow-amber-100/70 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+						<img
+							:src="image.src"
+							:alt="image.alt"
+							class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+							loading="lazy" />
+					</div>
 				</div>
+				<div
+					v-if="shouldShowFade"
+					class="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-amber-50 via-amber-50/70 to-transparent sm:hidden"></div>
+			</div>
+
+			<div class="mt-6 flex justify-center sm:hidden">
+				<button
+					type="button"
+					class="px-5 py-2.5 rounded-full bg-orange-500 text-white text-sm font-semibold shadow-lg shadow-orange-200/70 hover:bg-orange-600 active:translate-y-[1px] transition-all duration-200"
+					@click="toggleShowAll">
+					{{ showAll ? "Mostrar menos" : "Mostrar tudo" }}
+				</button>
 			</div>
 		</div>
 	</section>
 </template>
 
 <script setup lang="ts">
+	import { computed, ref } from "vue";
+
 	/**
 	 * 🖼️ Lista de Imagens — Fonte da galeria
 	 */
@@ -60,6 +76,26 @@
 		readonly src: string;
 		readonly alt: string;
 	}
+
+	const gridBaseClass: string =
+		"columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6 lg:gap-8 [column-fill:_balance]";
+
+	/**
+	 * 📱 Controle de colapso — Otimiza altura no mobile com fade e botão
+	 */
+	const showAll = ref<boolean>(false);
+
+	const mobileCollapseClass = computed<string>(() =>
+		showAll.value ?
+			"sm:columns-2 lg:columns-3 xl:columns-4"
+		:	"max-h-[1200px] overflow-hidden sm:max-h-none sm:overflow-visible",
+	);
+
+	const shouldShowFade = computed<boolean>(() => !showAll.value);
+
+	const toggleShowAll = (): void => {
+		showAll.value = !showAll.value;
+	};
 
 	const galleryImages: readonly GalleryImage[] = [
 		{
