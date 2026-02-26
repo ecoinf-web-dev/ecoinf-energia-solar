@@ -5,6 +5,7 @@
 		<NuxtLayout>
 			<NuxtPage />
 		</NuxtLayout>
+    <!-- fiz qualquer coisa -->
 	</UApp>
 </template>
 
