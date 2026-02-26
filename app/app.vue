@@ -13,7 +13,7 @@
 	// Carrega os scripts apenas no cliente e após o carregamento inicial para não bloquear a renderização
 	if (import.meta.client) {
 		const { onLoaded, load } = useScript(
-			"https://www.googletagmanager.com/gtag/js?id=AW-17330640604",
+			"https://www.googletagmanager.com/gtag/js?id=AW-17856049793",
 			{
 				trigger: "manual",
 			},
@@ -34,7 +34,7 @@
 			}
 			window.gtag = gtag;
 			gtag("js", new Date());
-			gtag("config", "AW-17330640604");
+			gtag("config", "AW-17856049793");
 
 			// Event snippet for WhatsApp conversion page
 			window.gtag_report_conversion = function (url?: string) {
@@ -44,7 +44,7 @@
 					}
 				};
 				gtag("event", "conversion", {
-					send_to: "AW-17330640604/Te9iCOzenu0aENyt8sdA",
+					send_to: "AW-17856049793/m35sCOjwhesbEIHltsJC",
 					event_callback: callback,
 				});
 				return false;
