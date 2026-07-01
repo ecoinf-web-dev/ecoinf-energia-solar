@@ -44,7 +44,7 @@
 					Em Brasília
 				</span>
 				<span class="block">
-					Economize agora<br />
+					Economize Agora<br />
 					com Energia Solar</span
 				>
 			</h1>
