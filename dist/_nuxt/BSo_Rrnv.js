@@ -1,0 +1,1 @@
+const r=()=>({reportConversion:n=>typeof window<"u"&&window.gtag_report_conversion?window.gtag_report_conversion(n):(n&&(window.location.href=n),!1),trackEvent:(n,o={})=>{typeof window<"u"&&window.gtag&&window.gtag("event",n,o)}});export{r as u};

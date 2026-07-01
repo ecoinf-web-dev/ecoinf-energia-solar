@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+
+# Permite acessar arquivos dentro da pasta .output/public
+RewriteRule ^\.output/ - [L]
+
+# Se o arquivo ou diretório existir dentro de .output/public, usa ele
+RewriteCond %{DOCUMENT_ROOT}/.output/public/$1 -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/.output/public/$1 -d
+RewriteRule ^(.+)$ .output/public/$1 [L]
+
+# SPA fallback (Nuxt)
+RewriteRule ^.*$ .output/public/index.html [L]
